@@ -1,0 +1,371 @@
+.mpwizard-logo {
+    max-width: 235px;
+    display: block;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+.mpwizard-header {
+    background-color: #fff;
+    margin: 22px 0 20px 0;
+    padding: 15px 20px;
+}
+
+.mpwizard-header h1 {
+    margin-right: 50px;
+    color:#676767;
+}
+
+.mpwizard-button {
+	border-width: 0;
+	border-style: none;
+	padding: 4px 8px;
+    background: #13B3F2;
+	border-color:#13B3F2;
+	color: #fff;
+    border-radius: 2px;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mpwizard-button-sm {
+    margin-left: 30px;
+}
+
+.mpwizard-button-md {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 12px;
+    min-height: 35px;
+}
+
+.mpwizard-button:hover {
+    background: #25A6D9;
+	border-color: #25A6D9;
+	color: #fff;
+}
+
+.mpwizard-form {
+    background-color: #fff;
+    padding: 25px;
+    /*box-shadow: 0 5px 30px rgba(0,0,0,0.2);*/
+    /*margin: 10px 0;*/
+}
+
+.mpwizard-form label {
+	display: block;
+	font-size: 16px ;
+	font-weight: 600;
+	line-height: 20px;
+	margin: 15px 0 15px 0;
+    white-space:nowrap;
+}
+
+.mpwizard-form span {
+	color: #999999;
+    display: block;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 5px 0 0 2px;
+}
+
+.mpwizard-required {
+    display: inline !important;
+    color: #FF0000 !important;
+
+}
+
+.mpwizard-form button img {
+	width: 100%;
+	height: auto;
+	max-width: 120px;
+}
+
+.mpwizard-form button[type="submit"] {
+	background-color: #999999;
+	border: none;
+	border-radius: 2px;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 21px;
+	padding: 10px 15px;
+    display: block;
+    margin-top: 25px;
+    white-space:nowrap;
+}
+
+.mpwizard-form button[type="submit"]:hover {
+	background-color: #676767;
+}
+
+.mpwizard-form button[type="submit"]:disabled {
+	background-color: #13B3F2;
+}
+
+.mpwizard-long-text {
+    width: 350px;
+}
+
+.mpwizard-form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.mpwizard-btn-preview {
+    visibility: hidden;
+}
+
+.mpwizard-btn-css-unit-wrapper {
+    margin-top: -10px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 9px;
+}
+
+.mpwizard-btn-input-padding {
+    width: 61px;
+}
+
+.mpwizard-btn-css-unit { 
+    color: #a4afb7;  
+    padding: 0 2px; 
+    text-decoration: none;
+}
+
+.mpwizard-btn-css-unit-active { 
+    color: #6d7882;
+    text-decoration: underline;
+}
+
+.mpwizard-btn-padding-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.mpwizard-btn-css-unit-btn {
+    background-color: #adb4b9;
+    color: #fff;
+    border-style: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    visibility: hidden;
+    display: none;
+}
+
+.mpwizard-btn-css-unit-btn span {
+    color: #fff !important;
+    font-size: 10px !important;
+}
+
+.mpwizard-btn-css-unit-btn-unlink {
+    background-color: #fff;
+    border: 1px solid #adb4b9;
+}
+
+.mpwizard-btn-css-unit-btn-unlink span {
+    color: #adb4b9 !important;
+}
+
+.mpwizar-btn-style-option{
+    color: unset !important;
+}
+
+#mpwizard-btn-style-settings {
+    display: none;
+}
+
+#mpwizard-btn-picture {
+	background-color: transparent;
+	border-style: none;
+    cursor: pointer;
+}
+
+#mpwizard-btn-clean-img {
+    visibility: hidden;
+}
+
+#mpwizard-shortcode-copied {
+    font-size: 13px;
+}
+
+#mpwizard-btn-header-preview {
+    background-color: #fff;
+    padding: 25px;   
+}
+
+.mpwizard-btn-preview-wrapper {
+    display: inline;
+}
+
+.mpwizard-form-footer {
+    border-top: 1px solid #adb4b9;
+    margin-top: 40px;
+}
+
+.mpwizard-input-lg{
+    width: 400px;
+}
+
+.mpwizard-settings-wrapper .form-table {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 25px;
+}
+
+.mpwizard-settings-wrapper h2 {
+    font-size: 1.5em;
+}
+
+.mpwizard-hidden {
+    display: none;
+}
+
+.mpwizard-setting-help {
+    color: #646970;
+    max-width: 410px;
+}
+
+.mpwizard-delete-product {
+    visibility: visible;
+}
+
+.mpwizard-sc-copy {
+    visibility: visible;
+}
+
+.mpwizard-ip-copy {
+    visibility: visible;
+}
+
+.icon-green {
+    color: rgb(134, 214, 15);
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+/***********jquery-confirm***********/
+
+.jconfirm-title-c {
+    text-align: center;
+}
+
+.jconfirm .jconfirm-box div.jconfirm-title-c .jconfirm-icon-c {
+	display: block;
+    margin-top: 15px;
+}
+
+.jconfirm-title {
+	margin-top: 10px;
+}
+
+.jconfirm-content {
+	text-align: center;
+	font-size: 15px;
+	color: #676767;
+    overflow: hidden !important;
+    padding: 20px 0;
+}
+
+.jconfirm-content #mpwizard-shortcode {
+	margin-top: 15px;
+    display: block;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.jconfirm-content #mpwizard-link {
+	margin-top: 15px;
+    display: block;
+    cursor: pointer;
+}
+
+.jconfirm-buttons {
+    float: none !important; 
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.jconfirm-buttons button {
+    background-color: #13B3F2 !important;
+    color: #fff !important;
+    outline: none !important;
+    padding: 10px 20px !important;
+}
+
+@media (max-width: 450px) {
+    .jconfirm-box {
+        width: 300px !important;
+    }
+  }
+
+/***********jquery minicolors***********/
+
+.minicolors-theme-default .minicolors-input {
+	height: 20px;
+	width: auto;
+	display: inline-block;
+	padding-left: 35px;
+}
+
+.minicolors-theme-default .minicolors-swatch {
+	top: -4px;
+	left: 0px;
+	width: 28px;
+	height: 28px;
+}
+
+.minicolors-swatch-color {
+	position: absolute;
+	top: -5px;
+	left: -2px;
+	right: 0;
+	bottom: 0;
+}
+
+/***********special classes***********/
+
+.mpwizard-product-btn {
+    visibility: visible;
+}
+
+/***********media querys***********/
+
+@media screen and (max-width: 1380px) {
+    .mpwizard-long-text{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .mpwizard-form-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .mpwizard-form-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .mpwizard-header h1 {
+        text-align: center;
+    }
+
+    .mpwizard-header h1 a{
+        margin-top: 20px;
+        display: block;
+    }
+}
+
